@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var showingInfoView: Bool = false
+    
     var body: some View {
         ZStack {
             // MARK: - Background
@@ -132,7 +135,7 @@ struct ContentView: View {
             .overlay(
                 //reset
                 Button(action: {
-                    print("reset the game")
+                    self.showingInfoView = true
                 }, label: {
                     Image(systemName: "arrow.2.circlepath.circle")
                 })
@@ -151,7 +154,12 @@ struct ContentView: View {
             )
             .padding()
             .frame(maxWidth: 720)
+            
+            //MARK: - Popup
         }
+        .sheet(isPresented: $showingInfoView, content: {
+            InfoView()
+        })
     }
 }
 

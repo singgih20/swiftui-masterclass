@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		952035622CC29562005D5B7F /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952035612CC29562005D5B7F /* ReelView.swift */; };
+		952035642CC2A06C005D5B7F /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952035632CC2A06C005D5B7F /* InfoView.swift */; };
 		9568CFE72CC225FE008EAB5D /* Slot_MachineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568CFE62CC225FE008EAB5D /* Slot_MachineApp.swift */; };
 		9568CFE92CC225FE008EAB5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568CFE82CC225FE008EAB5D /* ContentView.swift */; };
 		9568CFEB2CC225FF008EAB5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9568CFEA2CC225FF008EAB5D /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		952035612CC29562005D5B7F /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
+		952035632CC2A06C005D5B7F /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		9568CFE32CC225FE008EAB5D /* Slot Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slot Machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9568CFE62CC225FE008EAB5D /* Slot_MachineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slot_MachineApp.swift; sourceTree = "<group>"; };
 		9568CFE82CC225FE008EAB5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				9568CFE82CC225FE008EAB5D /* ContentView.swift */,
 				95DA93442CC242A300890CC5 /* LogoView.swift */,
 				952035612CC29562005D5B7F /* ReelView.swift */,
+				952035632CC2A06C005D5B7F /* InfoView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				95DA93472CC242E500890CC5 /* Modifiers.swift in Sources */,
 				9568CFE92CC225FE008EAB5D /* ContentView.swift in Sources */,
 				95DA93452CC242A300890CC5 /* LogoView.swift in Sources */,
+				952035642CC2A06C005D5B7F /* InfoView.swift in Sources */,
 				9568CFE72CC225FE008EAB5D /* Slot_MachineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
