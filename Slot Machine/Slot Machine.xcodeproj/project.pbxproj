@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		952035622CC29562005D5B7F /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952035612CC29562005D5B7F /* ReelView.swift */; };
 		9568CFE72CC225FE008EAB5D /* Slot_MachineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568CFE62CC225FE008EAB5D /* Slot_MachineApp.swift */; };
 		9568CFE92CC225FE008EAB5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568CFE82CC225FE008EAB5D /* ContentView.swift */; };
 		9568CFEB2CC225FF008EAB5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9568CFEA2CC225FF008EAB5D /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		952035612CC29562005D5B7F /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
 		9568CFE32CC225FE008EAB5D /* Slot Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slot Machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9568CFE62CC225FE008EAB5D /* Slot_MachineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slot_MachineApp.swift; sourceTree = "<group>"; };
 		9568CFE82CC225FE008EAB5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 			children = (
 				9568CFE82CC225FE008EAB5D /* ContentView.swift */,
 				95DA93442CC242A300890CC5 /* LogoView.swift */,
+				952035612CC29562005D5B7F /* ReelView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				952035622CC29562005D5B7F /* ReelView.swift in Sources */,
 				95DA93492CC2453D00890CC5 /* Extensions.swift in Sources */,
 				95DA93472CC242E500890CC5 /* Modifiers.swift in Sources */,
 				9568CFE92CC225FE008EAB5D /* ContentView.swift in Sources */,
