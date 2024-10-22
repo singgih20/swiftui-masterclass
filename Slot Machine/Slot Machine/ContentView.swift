@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     let symbols = ["gfx-bell", "gfx-cherry", "gfx-coin", "gfx-grape", "gfx-seven", "gfx-strawberry"]
-    
+    let haptics = UINotificationFeedbackGenerator()
     @State private var highscore: Int = UserDefaults.standard.integer(forKey: "HighScore")
     @State private var coins: Int = 100
     @State private var betAmount: Int = 10
@@ -26,6 +26,8 @@ struct ContentView: View {
         reels = reels.map({ _ in
             Int.random(in: 0...symbols.count - 1)
         })
+        playSound(sound: "spin", type: "mp3")
+        haptics.notificationOccurred(.success)
     }
     
     func checkWining() {
@@ -34,6 +36,8 @@ struct ContentView: View {
             
             if coins > highscore {
                 newHighScore()
+            } else {
+                playSound(sound: "win", type: "mp3")
             }
         } else {
             playerLoses()
@@ -47,6 +51,7 @@ struct ContentView: View {
     func newHighScore() {
         highscore = coins
         UserDefaults.standard.set(highscore, forKey: "HighScore")
+        playSound(sound: "high-score", type: "mp3")
     }
     
     func playerLoses() {
@@ -58,18 +63,31 @@ struct ContentView: View {
         betAmount = 20
         isActiveBet20 = true
         isActiveBet10 = false
+        playSound(sound: "casino-chips", type: "mp3")
+        haptics.notificationOccurred(.success)
     }
     
     func activeBet10() {
         betAmount = 10
         isActiveBet20 = false
         isActiveBet10 = true
+        playSound(sound: "casino-chips", type: "mp3")
+        haptics.notificationOccurred(.success)
     }
     
     func isGameOver() {
         if coins <= 0 {
             showingModal = true
         }
+        playSound(sound: "game-over", type: "mp3")
+    }
+    
+    func resetGame() {
+        UserDefaults.standard.set(0, forKey: "HighScore")
+        highscore = 0
+        coins = 10
+        activeBet10()
+        playSound(sound: "chimeup", type: "mp3")
     }
     
     
@@ -121,6 +139,8 @@ struct ContentView: View {
                             .animation(.easeOut(duration: Double.random(in: 0.5...0.7)))
                             .onAppear(perform: {
                                 self.animatingSymbol.toggle()
+                                playSound(sound: "riseup", type: "mp3")
+
                             })
                     }
                     
@@ -228,7 +248,7 @@ struct ContentView: View {
             .overlay(
                 //reset
                 Button(action: {
-                    self.showingInfoView = true
+                    resetGame()
                 }, label: {
                     Image(systemName: "arrow.2.circlepath.circle")
                 })
@@ -238,7 +258,7 @@ struct ContentView: View {
             .overlay(
                 //reset
                 Button(action: {
-                    print("Info view")
+                    self.showingInfoView = true
                 }, label: {
                     Image(systemName: "info.circle")
                 })

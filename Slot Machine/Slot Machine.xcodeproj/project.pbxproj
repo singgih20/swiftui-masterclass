@@ -17,6 +17,7 @@
 		9568D0032CC225FF008EAB5D /* Slot_MachineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568D0022CC225FF008EAB5D /* Slot_MachineUITests.swift */; };
 		9568D0052CC225FF008EAB5D /* Slot_MachineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568D0042CC225FF008EAB5D /* Slot_MachineUITestsLaunchTests.swift */; };
 		9568D0632CC22ED4008EAB5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9568D0622CC22ED4008EAB5D /* LaunchScreen.storyboard */; };
+		958518E82CC7639200F09E4D /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958518E72CC7639200F09E4D /* PlaySound.swift */; };
 		95DA93452CC242A300890CC5 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DA93442CC242A300890CC5 /* LogoView.swift */; };
 		95DA93472CC242E500890CC5 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DA93462CC242E500890CC5 /* Modifiers.swift */; };
 		95DA93492CC2453D00890CC5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DA93482CC2453D00890CC5 /* Extensions.swift */; };
@@ -62,6 +63,7 @@
 		9568D0272CC228AE008EAB5D /* high-score.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "high-score.mp3"; sourceTree = "<group>"; };
 		9568D0282CC228AE008EAB5D /* game-over.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "game-over.mp3"; sourceTree = "<group>"; };
 		9568D0622CC22ED4008EAB5D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		958518E72CC7639200F09E4D /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		95DA93442CC242A300890CC5 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		95DA93462CC242E500890CC5 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		95DA93482CC2453D00890CC5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -119,14 +121,7 @@
 				95F2ED432CC2334500C39639 /* Slot-Machine-Info.plist */,
 				9568D0292CC22C82008EAB5D /* Views */,
 				9568D02A2CC22C8D008EAB5D /* Helpers */,
-				9568D0252CC228AE008EAB5D /* background-music.mp3 */,
-				9568D0242CC228AE008EAB5D /* casino-chips.mp3 */,
-				9568D0232CC228AE008EAB5D /* chimeup.mp3 */,
-				9568D0282CC228AE008EAB5D /* game-over.mp3 */,
-				9568D0272CC228AE008EAB5D /* high-score.mp3 */,
-				9568D0212CC228AD008EAB5D /* riseup.mp3 */,
-				9568D0222CC228AD008EAB5D /* spin.mp3 */,
-				9568D0262CC228AE008EAB5D /* win.mp3 */,
+				958518E92CC7672F00F09E4D /* Sounds */,
 				9568CFE62CC225FE008EAB5D /* Slot_MachineApp.swift */,
 				9568CFEA2CC225FF008EAB5D /* Assets.xcassets */,
 				9568CFEC2CC225FF008EAB5D /* Slot_Machine.entitlements */,
@@ -177,8 +172,24 @@
 			children = (
 				95DA93462CC242E500890CC5 /* Modifiers.swift */,
 				95DA93482CC2453D00890CC5 /* Extensions.swift */,
+				958518E72CC7639200F09E4D /* PlaySound.swift */,
 			);
 			name = Helpers;
+			sourceTree = "<group>";
+		};
+		958518E92CC7672F00F09E4D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9568D0252CC228AE008EAB5D /* background-music.mp3 */,
+				9568D0242CC228AE008EAB5D /* casino-chips.mp3 */,
+				9568D0232CC228AE008EAB5D /* chimeup.mp3 */,
+				9568D0282CC228AE008EAB5D /* game-over.mp3 */,
+				9568D0272CC228AE008EAB5D /* high-score.mp3 */,
+				9568D0212CC228AD008EAB5D /* riseup.mp3 */,
+				9568D0222CC228AD008EAB5D /* spin.mp3 */,
+				9568D0262CC228AE008EAB5D /* win.mp3 */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				952035622CC29562005D5B7F /* ReelView.swift in Sources */,
+				958518E82CC7639200F09E4D /* PlaySound.swift in Sources */,
 				95DA93492CC2453D00890CC5 /* Extensions.swift in Sources */,
 				95DA93472CC242E500890CC5 /* Modifiers.swift in Sources */,
 				9568CFE92CC225FE008EAB5D /* ContentView.swift in Sources */,
