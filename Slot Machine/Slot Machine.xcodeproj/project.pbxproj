@@ -16,7 +16,7 @@
 		9568CFF92CC225FF008EAB5D /* Slot_MachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568CFF82CC225FF008EAB5D /* Slot_MachineTests.swift */; };
 		9568D0032CC225FF008EAB5D /* Slot_MachineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568D0022CC225FF008EAB5D /* Slot_MachineUITests.swift */; };
 		9568D0052CC225FF008EAB5D /* Slot_MachineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568D0042CC225FF008EAB5D /* Slot_MachineUITestsLaunchTests.swift */; };
-		9568D0632CC22ED4008EAB5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9568D0622CC22ED4008EAB5D /* LaunchScreen.storyboard */; };
+		9568D0632CC22ED4008EAB5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9568D0622CC22ED4008EAB5D /* LaunchScreen.storyboard */; platformFilter = ios; };
 		958518E82CC7639200F09E4D /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958518E72CC7639200F09E4D /* PlaySound.swift */; };
 		95DA93452CC242A300890CC5 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DA93442CC242A300890CC5 /* LogoView.swift */; };
 		95DA93472CC242E500890CC5 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DA93462CC242E500890CC5 /* Modifiers.swift */; };
@@ -501,10 +501,11 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -540,10 +541,11 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";

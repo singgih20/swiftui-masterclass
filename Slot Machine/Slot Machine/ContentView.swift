@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     let symbols = ["gfx-bell", "gfx-cherry", "gfx-coin", "gfx-grape", "gfx-seven", "gfx-strawberry"]
-    let haptics = UINotificationFeedbackGenerator()
+//    let haptics = UINotificationFeedbackGenerator()
     @State private var highscore: Int = UserDefaults.standard.integer(forKey: "HighScore")
     @State private var coins: Int = 100
     @State private var betAmount: Int = 10
@@ -27,7 +27,7 @@ struct ContentView: View {
             Int.random(in: 0...symbols.count - 1)
         })
         playSound(sound: "spin", type: "mp3")
-        haptics.notificationOccurred(.success)
+//        haptics.notificationOccurred(.success)
     }
     
     func checkWining() {
@@ -64,7 +64,7 @@ struct ContentView: View {
         isActiveBet20 = true
         isActiveBet10 = false
         playSound(sound: "casino-chips", type: "mp3")
-        haptics.notificationOccurred(.success)
+//        haptics.notificationOccurred(.success)
     }
     
     func activeBet10() {
@@ -72,7 +72,7 @@ struct ContentView: View {
         isActiveBet20 = false
         isActiveBet10 = true
         playSound(sound: "casino-chips", type: "mp3")
-        haptics.notificationOccurred(.success)
+//        haptics.notificationOccurred(.success)
     }
     
     func isGameOver() {
