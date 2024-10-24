@@ -14,6 +14,7 @@
 		9566A3052CC8A1D300C58896 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9566A3042CC8A1D300C58896 /* CardView.swift */; };
 		9566A3082CC8A22C00C58896 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9566A3072CC8A22C00C58896 /* CustomBackgroundView.swift */; };
 		9566A30C2CC8A42F00C58896 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9566A30B2CC8A42F00C58896 /* ColorExtension.swift */; };
+		9598DB472CCA784400F817D4 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9598DB462CCA784400F817D4 /* CustomButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9566A3042CC8A1D300C58896 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		9566A3072CC8A22C00C58896 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		9566A30B2CC8A42F00C58896 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		9598DB462CCA784400F817D4 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				9566A30A2CC8A41E00C58896 /* Utils */,
 				9566A2F52CC8979B00C58896 /* HikeApp.swift */,
+				9598DB462CCA784400F817D4 /* CustomButtonView.swift */,
 				9566A2F72CC8979B00C58896 /* ContentView.swift */,
 				9566A3072CC8A22C00C58896 /* CustomBackgroundView.swift */,
 				9566A3042CC8A1D300C58896 /* CardView.swift */,
@@ -156,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9598DB472CCA784400F817D4 /* CustomButtonView.swift in Sources */,
 				9566A2F82CC8979B00C58896 /* ContentView.swift in Sources */,
 				9566A3052CC8A1D300C58896 /* CardView.swift in Sources */,
 				9566A2F62CC8979B00C58896 /* HikeApp.swift in Sources */,
