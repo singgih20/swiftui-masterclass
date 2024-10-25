@@ -19,6 +19,7 @@
 		9598DB492CCA7C9B00F817D4 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9598DB482CCA7C9B00F817D4 /* GradientButtonStyle.swift */; };
 		9598DB4B2CCA8B7000F817D4 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9598DB4A2CCA8B7000F817D4 /* CustomCircleView.swift */; };
 		9598DB4D2CCA8C3600F817D4 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9598DB4C2CCA8C3600F817D4 /* MotionAnimationView.swift */; };
+		95A52A082CCB4FEA006831FE /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A52A072CCB4FEA006831FE /* CustomListRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		9598DB482CCA7C9B00F817D4 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 		9598DB4A2CCA8B7000F817D4 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		9598DB4C2CCA8C3600F817D4 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		95A52A072CCB4FEA006831FE /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				9598DB4C2CCA8C3600F817D4 /* MotionAnimationView.swift */,
 				9566A3042CC8A1D300C58896 /* CardView.swift */,
 				9598DB4A2CCA8B7000F817D4 /* CustomCircleView.swift */,
+				95A52A072CCB4FEA006831FE /* CustomListRowView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			files = (
 				9598DB472CCA784400F817D4 /* CustomButtonView.swift in Sources */,
 				954D78292CCB46CC00DF23F0 /* SettingView.swift in Sources */,
+				95A52A082CCB4FEA006831FE /* CustomListRowView.swift in Sources */,
 				9598DB4B2CCA8B7000F817D4 /* CustomCircleView.swift in Sources */,
 				9566A2F82CC8979B00C58896 /* ContentView.swift in Sources */,
 				9566A3052CC8A1D300C58896 /* CardView.swift in Sources */,
