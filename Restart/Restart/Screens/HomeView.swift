@@ -32,7 +32,9 @@ struct HomeView: View {
             // MARK: - FOOTER
             Spacer()
             
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+            Button(action: {
+                isOnboardingViewActive = true
+            }, label: {
                 Image(systemName: "arrow.triangle.2.circlepath.circle.fill")
                     .imageScale(.large)
                     
