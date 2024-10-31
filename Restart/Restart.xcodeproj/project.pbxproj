@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		959043D52CCF3FF800261688 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959043D42CCF3FF800261688 /* OnboardingView.swift */; };
 		959043D72CCF400700261688 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959043D62CCF400700261688 /* HomeView.swift */; };
+		9596F78C2CD338B9002B26F4 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9596F78B2CD338B9002B26F4 /* AudioPlayer.swift */; };
 		95979F022CCF3CC000540640 /* RestartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95979F012CCF3CC000540640 /* RestartApp.swift */; };
 		95979F042CCF3CC000540640 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95979F032CCF3CC000540640 /* ContentView.swift */; };
 		95979F062CCF3CC100540640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95979F052CCF3CC100540640 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		959043D32CCF3F6F00261688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		959043D42CCF3FF800261688 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		959043D62CCF400700261688 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9596F78B2CD338B9002B26F4 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		95979EFE2CCF3CC000540640 /* Restart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95979F012CCF3CC000540640 /* RestartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartApp.swift; sourceTree = "<group>"; };
 		95979F032CCF3CC000540640 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		95979F192CCF3E3C00540640 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				9596F78B2CD338B9002B26F4 /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				959043D72CCF400700261688 /* HomeView.swift in Sources */,
 				95979F042CCF3CC000540640 /* ContentView.swift in Sources */,
 				95979F022CCF3CC000540640 /* RestartApp.swift in Sources */,
+				9596F78C2CD338B9002B26F4 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,9 +321,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Restart/Restart.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Restart/Preview Content\"";
+				DEVELOPMENT_TEAM = 59H2PKZXFD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Restart/Info.plist;
@@ -354,9 +360,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Restart/Restart.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Restart/Preview Content\"";
+				DEVELOPMENT_TEAM = 59H2PKZXFD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Restart/Info.plist;
