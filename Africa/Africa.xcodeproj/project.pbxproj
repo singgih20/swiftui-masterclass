@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9525F4E72CDB7A3300E42D98 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525F4E62CDB7A3300E42D98 /* LocationModel.swift */; };
 		9575A55A2CDA2BDE00D398C0 /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9575A5592CDA2BDE00D398C0 /* AfricaApp.swift */; };
 		9575A55C2CDA2BDE00D398C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9575A55B2CDA2BDE00D398C0 /* ContentView.swift */; };
 		9575A55E2CDA2BE000D398C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9575A55D2CDA2BE000D398C0 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9525F4E62CDB7A3300E42D98 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		9575A5562CDA2BDE00D398C0 /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9575A5592CDA2BDE00D398C0 /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		9575A55B2CDA2BDE00D398C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 				95C4F08B2CDB22AC008B67BE /* CoverImageModel.swift */,
 				95C4F0922CDB3E13008B67BE /* AnimalModel.swift */,
 				95C4F0A02CDB6482008B67BE /* VideoModel.swift */,
+				9525F4E62CDB7A3300E42D98 /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				9575A5892CDA2EBB00D398C0 /* VideoListView.swift in Sources */,
 				95C4F0A12CDB6482008B67BE /* VideoModel.swift in Sources */,
 				9575A58D2CDA2ED100D398C0 /* GalleryView.swift in Sources */,
+				9525F4E72CDB7A3300E42D98 /* LocationModel.swift in Sources */,
 				95C4F0992CDB4413008B67BE /* InsetGalleryView.swift in Sources */,
 				95C4F0A32CDB64BA008B67BE /* VideoListItemView.swift in Sources */,
 				95C4F08F2CDB23AA008B67BE /* CodableBundleExtension.swift in Sources */,
