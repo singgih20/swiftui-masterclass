@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "hippo.mp4",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
