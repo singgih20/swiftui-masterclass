@@ -34,6 +34,7 @@ struct MainView: View {
                     Text("Gallery")
                 }
         } //: TAB
+        
     }
 }
 
