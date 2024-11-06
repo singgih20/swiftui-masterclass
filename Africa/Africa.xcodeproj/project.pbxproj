@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9525F4E72CDB7A3300E42D98 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525F4E62CDB7A3300E42D98 /* LocationModel.swift */; };
+		9525F4E92CDB7E0A00E42D98 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525F4E82CDB7E0A00E42D98 /* MapAnnotationView.swift */; };
 		9575A55A2CDA2BDE00D398C0 /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9575A5592CDA2BDE00D398C0 /* AfricaApp.swift */; };
 		9575A55C2CDA2BDE00D398C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9575A55B2CDA2BDE00D398C0 /* ContentView.swift */; };
 		9575A55E2CDA2BE000D398C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9575A55D2CDA2BE000D398C0 /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		9525F4E62CDB7A3300E42D98 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		9525F4E82CDB7E0A00E42D98 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		9575A5562CDA2BDE00D398C0 /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9575A5592CDA2BDE00D398C0 /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		9575A55B2CDA2BDE00D398C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				95C4F09E2CDB4DDF008B67BE /* ExternalWeblinkView.swift */,
 				95C4F0A22CDB64BA008B67BE /* VideoListItemView.swift */,
 				95C4F0A42CDB6874008B67BE /* VideoPlayerView.swift */,
+				9525F4E82CDB7E0A00E42D98 /* MapAnnotationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				95C4F0A82CDB68FB008B67BE /* VideoPlayerHelper.swift in Sources */,
 				95C4F09D2CDB4C71008B67BE /* InsetMapView.swift in Sources */,
 				9575A55A2CDA2BDE00D398C0 /* AfricaApp.swift in Sources */,
+				9525F4E92CDB7E0A00E42D98 /* MapAnnotationView.swift in Sources */,
 				9575A5892CDA2EBB00D398C0 /* VideoListView.swift in Sources */,
 				95C4F0A12CDB6482008B67BE /* VideoModel.swift in Sources */,
 				9575A58D2CDA2ED100D398C0 /* GalleryView.swift in Sources */,
